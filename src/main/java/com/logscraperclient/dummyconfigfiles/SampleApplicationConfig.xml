@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configured_endpoints>
+    <endpoint>
+        
+        <file>C:\\!disk\\output_file.txt</file>
+        <regexp>
+            <pattern>ERROR</pattern>
+            <ragflag>1</ragflag>
+        </regexp>
+    </endpoint>
+    <endpoint>
+        
+        <file>C:\\!disk\\output_file1.txt</file>
+        <regexp>
+            <pattern>ERROR|WARN</pattern>
+            <regexpragflag>1</regexpragflag>
+        </regexp>
+        <regexp>
+            <pattern>bsbabbab</pattern>
+            <regexpragflag>0</regexpragflag>
+        </regexp>
+    </endpoint>
+</configured_endpoints>
